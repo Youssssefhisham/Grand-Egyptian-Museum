@@ -1,0 +1,442 @@
+<html>   
+    <head>
+    <link rel="stylesheet" href="/css_project/header.css">
+    <link rel="stylesheet" href="/css_project/planyourvisit.css">
+    <link rel="stylesheet" href="/css_project/footer.css">
+    <script type="text/javascript" src="/js_project/darkmode.js" defer></script>
+    <script type="text/javascript" src="/js_project/language.js" defer></script>
+    <link rel="icon" href="./Images/logo.png">
+    <title>Plan Your Visit</title>
+</head>
+<header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <a href="/Index.html"><img class="logo" src="/Images/logo.png" alt="museum logo"></a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                 <li><a href="#" data-en="Visit" data-ar="زيارة" data-fr="Visite">Visit</a>
+    <ul>
+        <li><a href="#" data-en="Plan" data-ar="تخطيط" data-fr="Planifier">Plan</a>
+            <ul>
+                <li><a href="/planyourvisit.html" data-en="Plan Your Visit" data-ar="خطط لزيارتك" data-fr="Planifiez votre visite">Plan Your Visit</a></li>
+                <li><a href="/schoolvisits.html" data-en="School Visits" data-ar="زيارات مدرسية" data-fr="Visites scolaires">School Visits</a></li>
+            </ul>
+        </li>
+        <li><a href="/GEMproject/map.html" data-en="Map" data-ar="خريطة" data-fr="Carte">Map</a></li>
+        <li><a href="/resturant.html" data-en="Dine" data-ar="مطاعم" data-fr="Dîner">Dine</a></li>
+        <li><a href="/test/Shops.html" data-en="Gift Shops" data-ar="محلات الهدايا" data-fr="Boutiques de cadeaux">Gift Shops</a></li>
+        <li><a href="/Events/events.html" data-en="Events" data-ar="فعاليات" data-fr="Événements">Events</a></li>
+        <li><a href="guideline.html" data-en="Guidelines" data-ar="إرشادات" data-fr="Consignes">Guidelines</a></li>
+        <li><a href="acc.html" data-en="Accessibility"  data-ar="تيسيرات لذوي الاحتياجات الخاصة" data-fr="Aménagements pour personnes handicapées">>Accessibility</a></li>
+    </ul>
+</li>
+
+                    </li>
+
+                     <li><a href="#" data-en="Collection" data-ar="المجموعة" data-fr="Collection">Collection</a>
+                            <ul>
+                               <li><a href="collections.html" data-en="Monuments" data-ar="الآثار" data-fr="Monuments">collections</a></li>
+                               <li><a href="/it project/Timeline/Timeline.html" data-en="Timeline" data-ar="الجدول الزمني" data-fr="Chronologie">Timeline</a></li>
+                               <li><a href="/Around/around .html" data-en="Around" data-ar="حول" data-fr="Autour">Around</a></li>
+                            </ul>
+                     </li>
+
+                    <li><a href="#" data-en="Media" data-ar="الوسائط" data-fr="Médias">Media</a>
+                            <ul>
+                               <li><a href="/pictures.html" data-en="Photos" data-ar="الصور" data-fr="Photos">Photos</a></li>
+                               <li><a href="/videos.html" data-en="Videos" data-ar="مقاطع الفيديو" data-fr="Vidéos">Videos</a></li>
+                            </ul>
+                    </li>
+
+                   <li><a href="about.html" data-en="About" data-ar="عن المتحف" data-fr="À propos">About</a></li>
+
+                <li><a href="contactus.html" data-en="Contact Us" data-ar="اتصل بنا" data-fr="Contactez-nous">Contact Us</a></li>
+
+                    <li> <button id="theme-switch">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"/></svg>
+                        </button></li>
+
+                     <li><div class="language-selector">
+                        <button class="language-button">
+                          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
+                            <path d="M480-80q-82 0-155-31.5t-127.5-86Q143-252 111.5-325T80-480q0-83 31.5-155.5t86-127Q252-817 325-848.5T480-880q83 0 155.5 31.5t127 86q54.5 54.5 86 127T880-480q0 82-31.5 155t-86 127.5q-54.5 54.5-127 86T480-80Zm0-82q26-36 45-75t31-83H404q12 44 31 83t45 75Zm-104-16q-18-33-31.5-68.5T322-320H204q29 50 72.5 87t99.5 55Zm208 0q56-18 99.5-55t72.5-87H638q-9 38-22.5 73.5T584-178ZM170-400h136q-3-20-4.5-39.5T300-480q0-21 1.5-40.5T306-560H170q-5 20-7.5 39.5T160-480q0 21 2.5 40.5T170-400Zm216 0h188q3-20 4.5-39.5T580-480q0-21-1.5-40.5T574-560H386q-3 20-4.5 39.5T380-480q0 21 1.5 40.5T386-400Zm268 0h136q5-20 7.5-39.5T800-480q0-21-2.5-40.5T790-560H654q3 20 4.5 39.5T660-480q0 21-1.5 40.5T654-400Zm-16-240h118q-29-50-72.5-87T584-782q18 33 31.5 68.5T638-640Zm-234 0h152q-12-44-31-83t-45-75q-26 36-45 75t-31 83Zm-200 0h118q9-38 22.5-73.5T376-782q-56 18-99.5 55T204-640Z"/>
+                          </svg>
+                          <span data-en="Language" data-ar="اللغة" data-fr="Langue">Language</span>
+                          <select id="language-select" name="language">
+                            <option value="en" selected>English</option>
+                            <option value="ar">العربية</option>
+                            <option value="fr">Français</option>
+                          </select>
+                        </button>
+                      </div>
+                    </li>
+
+                    <li class="login-icon">
+                        <a href="/loginforms.html" title="Login">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <br><br><br><br><br><br><br>
+
+    <body>
+        <div>
+            <h1 align="center" data-ar="عروض حصرية للمجموعات السياحية!" data-en="Exclusive offers for touristic groups!" data-fr="Offres exclusives pour les groupes touristiques !">Exclusive offers for touristic groups!</h1>
+        </div>
+        <table style="width: 80%;">
+            <tr>
+                
+                <td style="width: 50%; vertical-align: top;">
+                    <p style="font-weight: bold;" data-ar="1. باقة أبرز المتاحف والفعاليات الكلاسيكية" data-en="1. Classic Museum & Events Highlights Bundle" data-fr="1. Forfait Musées et événements classiques">1. Classic Museum & Events Highlights Bundle</p>
+                    <img src="/Images/1737979506_informations22.jpg" style="width: 320px; height: auto;">
+                    <div style="width: 688px; height: 411px; color:rgb(0, 0, 0); font-size: 30;">
+                        <p data-ar="تذكرة دخول المتحف: دخول المتحف المصري.
+
+جولة إرشادية: لمحة عامة عن أبرز معالم المتحف.
+
+أبرز الفعاليات: لمحات عن مناسبات شهيرة، مثل:
+
+حفل الافتتاح: الافتتاح الكبير للمتحف عام ١٩٠٢.
+
+افتتاح معرض الملك توت: الكشف الأيقوني عن كنوز توت عنخ آمون.
+
+احتفالات المئوية: الاحتفال بمرور ١٠٠ عام على افتتاح المتحف.
+
+الندوات الدولية: مؤتمرات الآثار وعلم المصريات التي يستضيفها المتحف.
+
+حزمة تذكارية: نسخة طبق الأصل من قطعة أثرية من فعالية مميزة.
+
+السعر: متوسط ​​(١٢٠ جنيهًا مصريًا)" 
+data-en="                Museum Entry Ticket: Admission to the Egyptian Museum
+                            Guided Tour: Overview of the museum's highlights.
+                    
+                            Events Spotlight: Insights into famous occasions, such as:
+                            Opening Ceremonies: The museum’s grand inauguration in 1902.
+                            King Tut Exhibit Launch: Iconic unveiling of the treasures of Tutankhamun.
+                            Centennial Celebrations: Celebrating 100 years of the museum.
+                            International Symposiums: Archaeological and Egyptology conferences hosted at the museum.
+                            Souvenir Pack: Replica of an artifact from a featured event.
+                            Price Range: Moderate(120 EGP)" 
+                            data-fr="Billet d'entrée au musée : Entrée au Musée égyptien
+Visite guidée : Aperçu des points forts du musée.
+
+Événements marquants : Aperçu d'événements célèbres, tels que :
+Cérémonies d'ouverture : Inauguration solennelle du musée en 1902.
+Inauguration de l'exposition Toutânkhamon : Dévoilement emblématique des trésors de Toutânkhamon.
+Célébrations du centenaire : Célébration des 100 ans du musée.
+Symposiums internationaux : Conférences d'archéologie et d'égyptologie organisées au musée.
+Coffret souvenir : Réplique d'un artefact d'un événement phare.
+Gamme de prix : Moyenne (120 LEG)">
+                           Museum Entry Ticket: Admission to the Egyptian Museum
+                            Guided Tour: Overview of the museum's highlights.
+                    
+                            Events Spotlight: Insights into famous occasions, such as:
+                            Opening Ceremonies: The museum’s grand inauguration in 1902.
+                            King Tut Exhibit Launch: Iconic unveiling of the treasures of Tutankhamun.
+                            Centennial Celebrations: Celebrating 100 years of the museum.
+                            International Symposiums: Archaeological and Egyptology conferences hosted at the museum.
+                            Souvenir Pack: Replica of an artifact from a featured event.
+                            Price Range: Moderate(120 EGP)
+                        </p>
+                    </div>
+                </td>
+
+                
+                <td style="width: 50%; vertical-align: top; text-align: center;">
+                    <p style="font-weight: bold;" data-ar="2. حزمة الإرث الثقافي" data-en="2. Cultural Legacy Bundle" data-fr="2. Ensemble Héritage Culturel">2. Cultural Legacy Bundle</p>
+                    <img src="/Images/An-inside-picture-of-Deir-el-Medina-in-Egypt.webp" style="width: 320px; height: auto; margin-top: 10px;">
+                    <div style="width: 688px; height: auto; color:rgb(0, 0, 0); margin-top: 10px; font-size: 30;">
+                        <p
+                       data-ar="دخول كبار الشخصيات إلى المتحف: يشمل معارض مؤقتة ومواقع شهدت أحداثًا تاريخية.
+
+جولة الأحداث التاريخية: جولة إرشادية تركز على المناطق المرتبطة بأحداث مهمة.
+
+المعارض الدولية: عُرضت هنا سابقًا قطع أثرية عُرضت خلال جولات عالمية.
+
+كشف النقاب عن ترميم الأعمال الفنية: قصص وراء مشاريع الحفاظ الرئيسية ومعارضها.
+
+شراكات اليونسكو: فعاليات تُركّز على الحفاظ على التراث العالمي.
+
+إضافة: محاضرة أو عرض تقديمي خاص حول دور المتحف في علم المصريات.
+
+السعر: مميز (١٠٠٠ جنيه مصري)."
+                       data-en="     VIP Museum Access: Includes temporary exhibits and areas where historical events took place.
+                            Historical Events Tour: Guided walkthrough focusing on areas tied to significant happenings:
+                            International Exhibitions: Artifacts showcased during global tours were once displayed here.
+                            Art Restoration Unveiling: Stories behind major conservation projects and their exhibitions.
+                            UNESCO Partnerships: Events emphasizing world heritage preservation.
+                            Add-On: Special talk or presentation about the museum's role in Egyptology.
+                            Price Range: Premium(1000 EGP)"
+                       data-fr="Accès VIP au musée : Comprend les expositions temporaires et les espaces consacrés à des événements historiques.
+Visite guidée des événements historiques : Visite guidée axée sur les espaces liés à des événements marquants.
+Expositions internationales : Des objets exposés lors de tournées internationales y étaient autrefois exposés.
+Dévoilement d'œuvres d'art restaurées : Histoires des grands projets de conservation et de leurs expositions.
+Partenariats avec l'UNESCO : Événements mettant l'accent sur la préservation du patrimoine mondial.
+Option : Conférence ou présentation spéciale sur le rôle du musée en égyptologie.
+Gamme de prix : Premium (1 000 LEG)"
+                        
+                        >
+                            VIP Museum Access: Includes temporary exhibits and areas where historical events took place.
+                            Historical Events Tour: Guided walkthrough focusing on areas tied to significant happenings:
+                            International Exhibitions: Artifacts showcased during global tours were once displayed here.
+                            Art Restoration Unveiling: Stories behind major conservation projects and their exhibitions.
+                            UNESCO Partnerships: Events emphasizing world heritage preservation.
+                            Add-On: Special talk or presentation about the museum's role in Egyptology.
+                            Price Range: Premium(1000 EGP)
+                        </p>
+                    </div>
+                </td>
+            </tr>
+        </table><br><br>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2" data-ar="3. باقة الفعاليات المسائية والحفلات" data-en="3. Evening Events & Gala Bundle" data-fr="3. Forfait Soirées et Gala">3. Evening Events & Gala Bundle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">
+                        <img src="/Images/411edc15-0ba9-4d09-bc8f-1834fb6e0e71_798e21ed.jpg">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div style="width: 100%; color:rgb(0, 0, 0); margin-top: 10px; font-size: 30;">
+                            <p data-ar="دخول المتحف بعد ساعات العمل: استكشف المتحف في أمسية مميزة.
+
+جولة إعادة تمثيل: استرجع ذكريات حفلات العشاء أو المؤتمرات التاريخية التي عُقدت في المتحف.
+
+عرض إرث الحدث: عرض متعدد الوسائط للأحداث الرئيسية، مثل:
+
+زيارات الوفود الخاصة: كبار الشخصيات والشخصيات الدولية.
+
+إطلاق الاكتشافات الأثرية: كشف النقاب عن أهم الاكتشافات للجمهور.
+
+حفل عشاء فاخر: استمتع بوجبة مختارة مستوحاة من المطبخ المصري القديم.
+
+السعر: فاخر (١٧٣٠ جنيهًا مصريًا)" data-en="           After-Hours Museum Entry: Explore the museum in an exclusive evening setting.
+                                Reenactment Tour: Relive historical gala dinners or conferences held in the museum.
+                                Event Legacy Presentation: Multimedia display of major events, such as:
+                                Special Delegation Visits: VIPs and international dignitaries.
+                                Launch of Archaeological Discoveries: Public unveilings of key finds.
+                                Gala Dinner: Enjoy a curated meal inspired by ancient Egyptian cuisine.
+                                Price Range: High-end(1730 EGP)"
+                                 data-fr="Entrée au musée après les heures d'ouverture : Explorez le musée dans un cadre exclusif en soirée.
+Visite reconstitution historique : Revivez les dîners de gala ou conférences historiques organisés au musée.
+Présentation de l'héritage événementiel : Présentation multimédia d'événements majeurs, tels que :
+Visites de délégations spéciales : VIP et dignitaires internationaux.
+Lancement des découvertes archéologiques : Dévoilement public des principales découvertes.
+Dîner de gala : Savourez un repas composé avec soin, inspiré de la cuisine de l'Égypte antique.
+Gamme de prix : Haut de gamme (1 730 LEG)">
+                                After-Hours Museum Entry: Explore the museum in an exclusive evening setting.
+                                Reenactment Tour: Relive historical gala dinners or conferences held in the museum.
+                                Event Legacy Presentation: Multimedia display of major events, such as:
+                                Special Delegation Visits: VIPs and international dignitaries.
+                                Launch of Archaeological Discoveries: Public unveilings of key finds.
+                                Gala Dinner: Enjoy a curated meal inspired by ancient Egyptian cuisine.
+                                Price Range: High-end(1730 EGP)
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2" data-ar="4. حزمة المعارض والفعاليات الخاصة" data-en=" 4. Special Exhibitions & Events Bundle" data-fr="4. Forfait Expositions et événements spéciaux"> 4. Special Exhibitions & Events Bundle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">
+                        <img src="/Images/Pyramid-wall-at-GEM-grand-Egyptian-Museum.jpg">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div style="width: 100%; color:rgb(0, 0, 0); margin-top: 10px; font-size: 30;">
+                            <p data-ar="الدخول إلى المعارض الخاصة: تشمل فعاليات مثل:
+
+جولة توت عنخ آمون العالمية (الأصول): كيف أصبحت الكنوز ظاهرة عالمية.
+
+دراسات حجر رشيد: فعاليات متعلقة بالترجمات وسياقها التاريخي.
+
+نساء مصر القديمة: معارض خاصة تحتفي بالملكات والنساء في المجتمع المصري القديم.
+
+جولة بصحبة مرشد: التركيز على أقسام المتحف المرتبطة بهذه المعارض.
+
+محاضرة أو ورشة عمل: يقدمها علماء مصريات شاركوا في فعاليات سابقة.
+
+السعر: متوسط ​​(400 جنيه مصري)." data-en="                           Access to Special Exhibitions: Features events like:
+                                Tutankhamun’s World Tour (Origins): How the treasures became an international phenomenon.
+                                Rosetta Stone Studies: Events related to translations and their historical context.
+                                Women of Ancient Egypt: Special exhibitions celebrating queens and women in ancient Egyptian society.
+                                Guided Tour: Focus on sections of the museum tied to these exhibitions.
+                                Talk or Workshop: Led by Egyptologists involved in past events.
+                                Price Range: Moderate(400 EGP)" data-fr="Accès aux expositions temporaires : Événements tels que :
+Le tour du monde de Toutankhamon (Origines) : Comment les trésors sont devenus un phénomène international.
+Études de la pierre de Rosette : Événements liés aux traductions et à leur contexte historique.
+Femmes de l’Égypte ancienne : Expositions temporaires célébrant les reines et les femmes de la société égyptienne antique.
+Visite guidée : Focus sur les sections du musée liées à ces expositions.
+Conférence ou atelier : Animé par des égyptologues impliqués dans des événements passés.
+Tarif : Modéré (400 LEG)">
+                                Access to Special Exhibitions: Features events like:
+                                Tutankhamun’s World Tour (Origins): How the treasures became an international phenomenon.
+                                Rosetta Stone Studies: Events related to translations and their historical context.
+                                Women of Ancient Egypt: Special exhibitions celebrating queens and women in ancient Egyptian society.
+                                Guided Tour: Focus on sections of the museum tied to these exhibitions.
+                                Talk or Workshop: Led by Egyptologists involved in past events.
+                                Price Range: Moderate(400 EGP)
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2" data-ar="5. حزمة تجربة VIP" data-en="5. VIP Experience Bundle" data-fr="5. Pack Expérience VIP">5. VIP Experience Bundle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">
+                        <img src="/Images/8f60921d-1bc5-4a16-ab15-b97058624c86.jpg">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div style="width: 100%; color:rgb(0, 0, 0); margin-top: 10px; font-size: 30;">
+                            <p data-ar="دخول المتحف لكبار الشخصيات: أولوية الدخول إلى كلٍّ من المتحف المصري والأهرامات.
+
+جولة متحفية خاصة بصحبة مرشد: جولة شخصية ومتعمقة بقيادة عالم مصريات.
+
+مواصلات فاخرة: سيارة مع سائق لتنقل سلس بين المتحف وهضبة الجيزة.
+
+جولة الأهرامات: استكشاف بصحبة مرشد لأهرامات الجيزة، وأبو الهول، ومتحف مركب الشمس.
+
+إضافة حصرية: دخول اختياري داخل الهرم الأكبر.
+
+مطاعم فاخرة: غداء في مطعم فاخر بإطلالة على الأهرامات.
+
+هدايا تذكارية فاخرة: نسخة طبق الأصل عالية الجودة أو مجوهرات مستوحاة من مقتنيات المتحف.
+
+السعر: فاخر (٢٥٠٠ جنيه مصري)." data-en="                          VIP Museum Entry: Priority access to both the Egyptian Museum and the Pyramids.
+                                Private Guided Museum Tour: Personalized, in-depth tour led by an Egyptologist.
+                                Luxury Transport: Chauffeur-driven car for seamless travel between the museum and the Giza Plateau.
+                                Pyramids Tour: Guided exploration of the Giza Pyramids, the Sphinx, and the Solar Boat Museum.
+                                Exclusive Add-On: Optional access inside the Great Pyramid.
+                                Fine Dining: Lunch at a high-end restaurant with views of the Pyramids.
+                                Deluxe Souvenir: High-quality replica or jewelry inspired by the museum’s collection.
+                                Price Range: High-end(2500 EGP)" data-fr="Entrée VIP au musée : Accès prioritaire au musée égyptien et aux pyramides.
+Visite guidée privée du musée : Visite personnalisée et approfondie, animée par un égyptologue.
+Transport de luxe : Voiture avec chauffeur pour un trajet fluide entre le musée et le plateau de Gizeh.
+Visite des pyramides : Exploration guidée des pyramides de Gizeh, du Sphinx et du musée de la Barque solaire.
+Option exclusive : Accès optionnel à l'intérieur de la Grande Pyramide.
+Restauration raffinée : Déjeuner dans un restaurant haut de gamme avec vue sur les pyramides.
+Souvenir de luxe : Réplique ou bijou de haute qualité inspiré de la collection du musée.
+Gamme de prix : Haut de gamme (2 500 LEG)">
+                                VIP Museum Entry: Priority access to both the Egyptian Museum and the Pyramids.
+                                Private Guided Museum Tour: Personalized, in-depth tour led by an Egyptologist.
+                                Luxury Transport: Chauffeur-driven car for seamless travel between the museum and the Giza Plateau.
+                                Pyramids Tour: Guided exploration of the Giza Pyramids, the Sphinx, and the Solar Boat Museum.
+                                Exclusive Add-On: Optional access inside the Great Pyramid.
+                                Fine Dining: Lunch at a high-end restaurant with views of the Pyramids.
+                                Deluxe Souvenir: High-quality replica or jewelry inspired by the museum’s collection.
+                                Price Range: High-end(2500 EGP)
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div style="display: flex; justify-content: center; align-items: center; height: 100vh; background-image: url('C:\\Users\\AMR SAAD\\OneDrive\\Desktop\\It Project\\Pictures\\DJI_0006-2000x1125.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+            <div style="width: 100%; max-width: 600px; border: 2px solid #8B4513; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); background-color: rgba(244, 228, 188, 0.95); border-radius: 15px;">
+                <h2 style="text-align: center; color: #4B3621;" data-ar="خطط لرحلتك" data-en="Plan Your Tour" data-fr="Planifiez votre visite">Plan Your Tour</h2>
+                <form>
+                    <input type="text" name="Name" placeholder="Enter number of members in the visit" required style="width: 100%; margin-bottom: 10px; padding: 10px; border: 1px solid #8B4513; border-radius: 5px;"> <br>
+                    <input type="text" name="Bundle" placeholder="Enter the chosen bundle" required style="width: 100%; margin-bottom: 10px; padding: 10px; border: 1px solid #8B4513; border-radius: 5px;"> <br>
+                    <input type="text" name="Phone" placeholder="Enter your phone" required style="width: 100%; margin-bottom: 10px; padding: 10px; border: 1px solid #8B4513; border-radius: 5px;"> <br>
+                    <textarea name="Notes" placeholder="Enter your notes" style="width: 100%; height: 150px; margin-bottom: 10px; padding: 10px; border: 1px solid #8B4513; border-radius: 5px;"></textarea> <br>
+                    <button type="submit" style="width: 100%; padding: 10px; background-color: #8B4513; color: #FFD700; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; transition: background-color 0.3s ease;">Submit</button>
+                </form>
+            </div>
+        </div>
+
+
+    </body>
+
+    
+
+        <footer id="ff">
+
+        <div class="tralalertralra">
+            <h3 class="follow" data-en="Follow us:" data-ar="تابعونا:" data-fr="Suivez-nous :">follow us:</h3>
+            <div class="iconssssss">
+                <a class="sm" href="https://www.facebook.com/GrandEgyptianMuseum/" target="_blank">
+                    <div class="facebook-wrapper">
+                        <svg class="facebook-icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" />
+                        </svg>
+                    </div>
+                </a>
+
+                <a class="sm" href="https://www.instagram.com/grandegyptianmuseum/#" target="_blank">
+                    <div class="instagram-wrapper">
+                        <svg class="instagram-icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7ZM9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12Z" />
+                            <path
+                                d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M5 1C2.79086 1 1 2.79086 1 5V19C1 21.2091 2.79086 23 5 23H19C21.2091 23 23 21.2091 23 19V5C23 2.79086 21.2091 1 19 1H5ZM19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z" />
+                        </svg>
+                    </div>
+                </a>
+
+                <a clas="sm" href="https://www.tiktok.com/@grandegyptianmuseum?_t=8mwhZT5wHyP&_r=1" target="_blank">
+                    <div class="tiktok-wrapper">
+                        <svg class="tiktok-icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.01-5.91 2.97-1.43-.02-2.86-.52-3.98-1.49-1.14-1.07-1.85-2.55-1.97-4.07-.12-1.56.26-3.14 1.09-4.39.84-1.27 2.18-2.12 3.67-2.38.33-.05.67-.07 1-.08v2.96c-.56.02-1.12.12-1.65.31-.84.32-1.48.96-1.81 1.8-.25.62-.32 1.3-.23 1.95.22 1.4 1.27 2.53 2.67 2.89.58.15 1.19.17 1.79.09.95-.13 1.77-.67 2.32-1.45.27-.4.45-.85.53-1.34.1-.91.09-1.83.08-2.74L12.525.02z" />
+                        </svg>
+                    </div>
+                </a>
+            </div>
+
+            <p class="sss"><a href="contactus.html" target="_blank" data-en="Contact us" 
+     data-ar="اتصل بنا"  data-fr="Contactez-nous">contact us</a></p>
+            <p data-en="Made with ❤ by" 
+        data-ar="صُنع بحب بواسطة" 
+        data-fr="Fait avec ❤ par" >Made with ❤ by </p> <span class="sss" class="sss" 
+      data-en="Team 9 (HU)" 
+      data-ar="الفريق ٩ (HU)" 
+      data-fr="Équipe 9 (HU)" >Team 9(HU)</span>
+           
+        </div>
+
+        <div class="Ministries">
+            <a href="https://mota.gov.eg/ar/" target="_blank" data-en="Ministry of Tourism and Antiquities" data-ar="وزارة السياحة والآثار" data-fr="Ministère du Tourisme et des Antiquités">Ministry of tourism and antiquities</a>
+            <a href="https://moi.gov.eg/En_Fr" target="_blank" data-en="Ministry of Interior" data-ar="وزارة الداخلية" data-fr="Ministère de l'Intérieur">Ministry of Interior</a>
+            <a href="http://www.moc.gov.eg/ar/home/" target="_blank" data-en="Ministry of Culture" data-ar="وزارة الثقافة" data-fr="Ministère de la Culture">Ministry of Culture</a>
+            <a href="https://www.mot.gov.eg/Home" target="_blank" data-en="Ministry of Transport and Communications" data-ar="وزارة النقل والاتصالات" data-fr="Ministère des Transports et des Communications">Ministry of Transport and Communications</a>
+        </div>
+
+
+    </footer>
+</html>
